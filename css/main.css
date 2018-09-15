@@ -8,12 +8,12 @@ html {
 }
 
 nav a {
-  color: #0084a6;
+  color: #005e76;
   border-bottom: 1.5px solid #8bc9d9;
 }
 
 nav a:hover {
-  color: #005e76;
+  color: #044656;
   border-bottom: 1.5px solid #005e76;
 }
 
@@ -21,7 +21,31 @@ footer {
   border-top: 1.5px solid #e2e2e2;
 }
 
+@media only screen and (min-width: 25em) {
+
+  .max-width-article {
+    max-width: 17rem;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .max-width-article {
+    max-width: 24rem;
+  }
+
+}
+
 @media only screen and (min-width: 60em) {
+
+  .max-width-article {
+    max-width: 24rem;
+  }
+
+  .max-length {
+    max-width: 36rem;
+  }
 
   nav {
     text-align: right;
@@ -38,13 +62,13 @@ footer {
 }
 
 .btn-ghost {
-  color: #0084a6;
+  color: #005e76;
   border-color: #8bc9d9;
 }
 
 .btn-ghost:hover {
-  color: #005e76;
-  border-color: #005e76;
+  color: #044656;
+  border-color: #0084a6;
   background-color: #8bc9d9;
 }
 
