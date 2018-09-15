@@ -2,13 +2,18 @@ html {
   font-family: "Noto Sans", sans-serif;
 }
 
-h1, nav {
+.title, nav {
   text-align: center;
 }
 
 nav a {
-  color: #005e76;
+  color: #0084a6;
   border-bottom: 1.5px solid #8bc9d9;
+}
+
+nav a:hover {
+  color: #005e76;
+  border-bottom: 1.5px solid #005e76;
 }
 
 .japanese {
