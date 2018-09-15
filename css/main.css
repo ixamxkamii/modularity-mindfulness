@@ -1,8 +1,23 @@
-html {
-  box-sizing: border-box;
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.japanese {
   font-family: "Noto Sans Japanese", sans-serif;
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
+.btn-ghost {
+  color: #0084a6;
+  border-color: #8bc9d9;
+}
+
+.btn-ghost:hover {
+  color: #005e76;
+  border-color: #0084a6;
+  background-color: #8bc9d9;
+}
+
+.border-top-bot {
+  border-bottom: 4px solid #e2e2e2;
+  border-top: 4px solid #e2e2e2;
 }
