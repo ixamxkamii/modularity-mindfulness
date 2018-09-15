@@ -1,5 +1,14 @@
-body {
-  font-family: 'Noto Sans', sans-serif;
+html {
+  font-family: "Noto Sans", sans-serif;
+}
+
+h1, nav {
+  text-align: center;
+}
+
+nav a {
+  color: #005e76;
+  border-bottom: 1.5px solid #8bc9d9;
 }
 
 .japanese {
