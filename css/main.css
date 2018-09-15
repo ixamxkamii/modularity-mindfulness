@@ -17,6 +17,21 @@ nav a:hover {
   border-bottom: 1.5px solid #005e76;
 }
 
+footer {
+  border-top: 1.5px solid #e2e2e2;
+}
+
+@media only screen and (min-width: 60em) {
+
+  nav {
+    text-align: right;
+  }
+
+  .title {
+    text-align: left;
+  }
+}
+
 .japanese {
   font-family: "Noto Sans Japanese", sans-serif;
 }
@@ -28,11 +43,11 @@ nav a:hover {
 
 .btn-ghost:hover {
   color: #005e76;
-  border-color: #0084a6;
+  border-color: #005e76;
   background-color: #8bc9d9;
 }
 
 .border-top-bot {
-  border-bottom: 4px solid #e2e2e2;
-  border-top: 4px solid #e2e2e2;
+  border-bottom: 1.5px solid #e2e2e2;
+  border-top: 1.5px solid #e2e2e2;
 }
