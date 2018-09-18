@@ -21,6 +21,10 @@ footer {
   border-top: 1.5px solid #e2e2e2;
 }
 
+.max-width-article {
+  max-width: 10rem;
+}
+
 @media only screen and (min-width: 25em) {
 
   .max-width-article {
